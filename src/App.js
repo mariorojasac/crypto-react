@@ -22,7 +22,8 @@ function App() {
 
         <Route
           path="/price/:symbol"
-          render={(routerProps) => <Price {...routerProps} />} >
+          render={(routerProps) => <Price {...routerProps} />}
+        >
           <Price />
         </Route>
       </Switch>
